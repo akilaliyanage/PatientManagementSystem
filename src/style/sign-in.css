@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.fling-minislide {
+    width:100%;
+    height:720px;
+    position:relative;
+    z-index: 0;
+    overflow: hidden;
+    box-shadow: 200px;
+}
+.fling-minislide .back{
+     position:absolute;
+     animation:fling-minislide 15s infinite;
+     opacity:0;
+     width: 100%;
+     height: auto;
+     filter: saturate(200%);
+}
+
+
+@keyframes fling-minislide {
+    30%{opacity:1;} 
+    75%{opacity:0;}
+}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+.head-topic{
+    position: absolute;
+    z-index: 2;
+    margin-left: 160px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 20px;
+}
+.head-img{
+    width:120px;
+    animation-name: blink;
+    animation-duration: 1s;
+}
+.new-user{
+    position: relative;
+    z-index: 2;margin-top: 200px;
+    margin-left: 100px;
+    font-family: 'Inconsolata', monospace;
+    color:white;
+}
+.sign-back{
+    position: relative;
+    z-index: 2;
+    margin-left: 290px;
+    background-color: black;
+    width:1000px;
+    height: 450px;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+.sign{
+    padding:     0px 20px 20px 20px;
+}
+.sign form{
+    display: inline-flex;
+}
+form div{
+    padding: 0px 30px 30px 30px;
+    flex: 1;
+}
+h5{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.fname,
+.lname,
+.nic,
+.phn,
+.email,
+.pass,
+.user{
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid aqua;
+    color: white;
+}
+h4{
+    display: inline;
+    color: white;
+}
+textarea{
+    border-radius: 20px;
+    font-family: 'Arvo', serif;
+}
+.date{
+    background-color: black;
+    color: white;
+}
+p{
+    color: white;
+}

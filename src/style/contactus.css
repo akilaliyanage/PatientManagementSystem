@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    line-height: 25px;
+}
+.upperdiv{
+    width:100%;
+    height:300px;
+    background-image: url('../images/28.png');
+    background-size: cover;
+    overflow: hidden;
+}
+.upperdiv h1{
+    padding-top: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.upperdiv h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.upperdiv li{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: disc;
+    display: inline;
+    padding-left: 10px;
+}
+.upperdiv h3{
+    color: rgb(124, 133, 141);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.upperdiv button{
+    background-color: white;
+    border: none;
+    margin-left: 660px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+.middiv{
+    background-color: rgb(243, 224, 201);
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.middiv h1,h3{
+    text-align: center;
+
+}
+form input{
+    display:inline-block;
+    padding-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-top: 1px solid black;
+    padding:10px;
+    font-size: 18px;
+}
+form{
+    margin-left: 330px;
+}
+button{
+    background: none;
+    border: none;
+}
+hr{
+    width:90%;
+    background-color: black;
+    height: 2px;
+}
+.dowdiv{
+    overflow: hidden;
+}
+.dowdiv h1,h2,h3,h4,button{
+    text-align: center;
+}
+.dowdiv h1{
+    font-family: 'Poppins', sans-serif;
+}
+.dowdiv h2{
+    font-family: 'Poppins', sans-serif;
+}
+.dowdiv button{
+    margin-left: 640px;
+    display: list-item;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    cursor: grab;
+}
+.dowdiv button:hover{
+    cursor: grab;
+}
+.google-map h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.map{
+    margin-left: 120px;
+}

@@ -1,0 +1,31 @@
+.head-back{
+    display: flex;
+    padding-top: 60px;
+    margin-left: 20px;
+}
+.head-back img{
+    width:100px;
+    animation: heart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes heart{
+    0%{transform: scale(1);}
+    25%{transform: scale(1.2);}
+    50%{transform: scale(1.3);}
+    100%{transform: scale(1);}
+}
+.head-back h1{
+    color:white;
+    padding:30px 0px 0px 20px;
+    font-size: 30px;
+}
+.head-back h2{
+    color: white;
+    padding: 1px 0px 0px 50px;
+    font-size: 15px;
+}
+.cont p{
+    color:white;
+}
+

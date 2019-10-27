@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="sRc/stylenew/adminpage.css">
+<script src="sRc/js/admin.js"></script>
+<title>Admin Panel</title>
+</head>
+
+
+<body>
+
+        <header>
+        
+        <div class="social-back">
+
+            <div class="button-links">
+                
+                    <div class="dropdown">
+                            <button class="dropbtn">DEPARTMENTS</button>
+                            <div class="dropdown-content">
+                              <a href="#">CARDIOLOGY</a>
+                              <a href="#">ORTHEOPEDICS</a>
+                              <a href="#">GENERAL SURGERY</a>
+                              <a href="#">GASTROENTEROLOGY</a>
+                              <a href="#">DERMATOLOGY</a>
+                            </div>
+                    </div> 
+                    <div class="dropdown">
+                            <button class="dropbtn">SERVICES</button>
+                            <div class="dropdown-content">
+                              <a href="#">SERVICE 1</a>
+                              <a href="#">SERVICE 2</a>
+                              <a href="#">SERVICE 3</a>
+                            </div>
+                    </div> 
+                    <div class="dropdown">
+                            <button class="dropbtn">PROFILE</button>
+                            <div class="dropdown-content">
+                              <a href="#">VIEW PROFILE</a>
+                              <a href="#">EDIT PROFILE</a>
+                              <a href="#">SHARE PROFILE</a>
+                            </div>
+                    </div> 
+                    <div class="dropdown">
+                            <button class="dropbtn">BILLING & PAYMENTS</button>
+                            <div class="dropdown-content">
+                              <a href="#">PAYEMENT HISTORY</a>
+                              <a href="#">MAKE A PAYMENT</a>
+                            </div>
+                    </div> 
+
+                    <div class="dropdown">
+                        <button class="dropbtn">CONTACT US</button>
+                        <div class="dropdown-content">
+                          <a href="#">Email: contact@meditech.org</a>
+                          <a href="#">Call: +94123456789</a>
+                          <a href="#">Whats app</a>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+           
+    </header>
+
+  <div class="v1">
+    <ul class="v2">
+      <li onclick="page('dash')"><a onclick="page('dash')">Dash board</a></li>
+	  <div class="c1">
+      <li><a href="#">Services<span class="v3"></span></a></li>
+      <ul class="drop">
+        <li onclick="page('add')"><a>Add service</a></li>
+        <li><a onclick="page('update')">Update service</a></li>
+		 <li><a onclick="page('remove')">Remove service</a></li>
+        <li><a onclick="page('data')">Database</a></li>
+      </ul></div>
+	  <div class="c2">
+      <li><a href="#">Website<span class="v3"></span></a></li>
+      <ul class="drop">
+        <li><a href="#">Home page</a></li>
+        <li><a href="#">Service page</a></li>
+        <li><a href="#">Doctor page</a></li>
+        <li><a href="#">About page</a></li>
+        <li><a href="#">Contact page</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Footer</a></li>
+      </ul></div>
+	  <div class="c3">
+      <li><a href="#">Settings<span class="v3"></span></a></li>
+      <ul class="drop">
+        <li><a href="#">General Setting</a></li>
+        <li><a href="#">Finance setting</a></li>
+        <li><a href="#">Google Analytics</a></li>
+        <li><a href="#">Permission</a></li>
+      </ul></div>
+	  <li><a href="login.html">Logout</a></li>
+    </ul>
+  </div>
+  
+  <div class="baha">
+ <div class="cal"><img src="sRc/imagenew/calendar.png" id="image"></div>
+  	<div class="box2">
+	<div class="a1">
+	<h2>-Patients-</h2>
+	<p size="10">277</p></div>
+
+	<div class="a2">
+    <h2>-Appointments-</h2>
+    <p>27</p></div>
+
+	<div class="a3">
+	<h2>-Invoice-</h2>
+	<p>67</p></div>
+	
+	<div class="a4">
+	<h2>-Requests-</h2>
+	<p>52</p></div>
+	</div>
+	</div>
+
+<div class="charts">	
+<img src="sRc/imagenew/chart2.png" width="250px" height="200px" class="c1">
+ <img src="sRc/imagenew/pie.png" class="piechart" width="250px" height="200px">
+ <img src="sRc/imagenew/chart3.png" width="250px" height="200px">
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+        <div class="container">
+            <div>
+                <h1>Basic Info</h1>
+            </div>
+            <div>
+                <pre>
+        No1,
+        MEDITECH Hospitals,
+        Park Street,
+        Colombo 6.
+                </pre>
+            </div>
+
+            <div>
+                <h2>
+                    +94123456789
+                </h2>
+            </div>
+
+            <div>
+                <button class="email1" id="email1" onclick="email1()">userresponse@meditech.org</button>
+                <button class="email1" id="email2" onclick="email2()">contactus@meditech.org</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <h1>Quick links</h1>
+            </div>
+            <div class="footer-nav">
+                <a href="">Contact us</a><br>
+                <a href="">Log Out</a><br>
+                <a href="">Register</a><br>
+                <a href="">Terms conditions</a><br>
+                <a href="">FAQ</a><br>
+                <a href="">Fogot Password</a><br>
+            </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <h1>
+                    Newsletter
+                </h1>
+            </div>
+            <div>
+                <input type="text" class="news" placeholder="Enter our email addaress"><br>
+                <input type="submit" class="submit-email" value="SUBMIT">
+            </div>
+            <div>
+                <p>You will receive our weekly and monthly newsletter which contains health tips</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <a href="https://twitter.com/login/"><img src="src/images/8.png" class="icons"></a>
+                <a href="https://lk.linkedin.com/"><img src="src/images/9.png" class="icons"></a>
+                <a href="https://www.instagram.com/"><img src="src/images/10.png" class="icons"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox/"><img src="src/images/11.png" class="icons"></a>
+                <a href="https://www.google.com/drive/"><img src="src/images/12.png" class="icons"></a>
+                <a href="src/images/13.png"><img src="src/images/13.png" class="icons"></a>
+            </div>
+        </div>
+            
+    </footer>
+     
+ 
+</body>
+
+
+
+
+</html>
